@@ -57,7 +57,7 @@ while vehicle.mode == VehicleMode("AUTO"):
  print "remaining distance ", remainingDistance
  time.sleep(2)
  
-# Switch to guided mode
+# Switch to guided mode now
 print "Switch to Guided mode"
 vehicle.mode = VehicleMode("GUIDED")
 time.sleep(1)
